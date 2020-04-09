@@ -25,4 +25,3 @@ def fpag(fpg, preço):
         print('Preço á pagar: R${:.2f}'.format(preço + juros))
         return 'Parcelas de R${:.2f}'.format(parcelas)
 
-
