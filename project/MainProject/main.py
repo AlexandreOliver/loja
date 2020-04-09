@@ -1,10 +1,10 @@
 from time import sleep
-from projetos.project.funções.vars import produtos, idproduto, carrinho
-from projetos.project.funções.cores import cor
-from projetos.project.funções.fopag import fpag
+from project.Component.vars import produtos, idproduto, carrinho
+from project.Component.cores import cor
+from project.Component.fopag import fpag
 
 
-print(cor('amarelo'), "—"* 10,cor('azul'), "InfoTech",cor('amarelo'), "—" * 10, cor('pausa'))
+print(cor('amarelo'), "—" * 10, cor('azul'), "InfoTech", cor('amarelo'), "—" * 10, cor('pausa'))
 sleep(0.2)
 print(cor('azul'), "Deseja comprar algo? ", end=" ")
 cliente = input().upper()
