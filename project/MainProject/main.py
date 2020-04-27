@@ -9,7 +9,10 @@ sleep(0.2)
 print(cor('azul'), "Deseja comprar algo? ", end=" ")
 cliente = input().upper()
 sleep(0.2)
-if cliente[0] == "S":
+if cliente != "SIM" and cliente != "NAO":
+    print("Responda SIM ou NAO.\nTente Novamente.")
+
+if cliente == "SIM":
     sleep(0.5)
     print("Produtos Disponíveis:\n")
     sleep(0.5)
@@ -77,7 +80,5 @@ if cliente[0] == "S":
     f = int(input('Digite:'))
     print("\n", fpag(f, total))
 
-
-
-else:
+if cliente == "NAO":
     print("Tchauu!!")
