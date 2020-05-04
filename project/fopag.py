@@ -1,4 +1,4 @@
-from project.Component.cores import cor
+from cores import cor
 
 
 def fpag(fpg, preco):

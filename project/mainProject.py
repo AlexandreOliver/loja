@@ -1,7 +1,7 @@
 from time import sleep
-from project.Component.vars import produtos, idproduto, carrinho
-from project.Component.cores import cor
-from project.Component.fopag import fpag
+from vars import produtos, idproduto, carrinho
+from cores import cor
+from fopag import fpag
 
 
 print(cor('amarelo'), "—" * 10, cor('azul'), "InfoTech", cor('amarelo'), "—" * 10, cor('pausa'))
